@@ -1,0 +1,106 @@
+
+
+* {
+    margin:0px;
+    padding:0px;
+}
+html, body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+}
+.nlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 1200px;
+    margin:0px auto;
+}
+
+.main-section {
+    width: 100%;
+    float: left;
+    padding:30px 0px 40px 0px;
+}
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px solid #ff5722;
+    margin-bottom:25px;
+    color: #ff5722;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    background: hsl(200, 74%, 87%);
+    padding:30px 0px;
+}
+nav a {
+    color: #0c92eb;
+    
+    text-decoration: none;
+    font-size: 45px;
+    border-right: 0px solid #2210e9;
+    padding:2px 20px;
+    justify-content: left;
+    padding: 10px 0px;
+    
+
+}
+
+nav ul li a:hover{
+    color:black;
+
+}
+ul li ul.dropdown li{
+    display: block;
+
+}
+ul li ul.dropdown{
+    width: 29%;
+    background:hsl(200, 74%, 87%);
+    position:sticky;
+    left: 430px;
+    z-index: 100;
+    display: none;
+}
+ul li a:hover{
+    background:none;
+}
+ul li:hover ul.dropdown{
+    display: block;
+
+}
+
+.info{
+    display:block;
+    font-size: 33px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+}
+
+.contact{
+    font-size:22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(37, 37, 37);
+    color: white;
+ 
+}
+.contact li a{
+    color: rgb(255, 255, 255);
+}
+.follow{
+    text-align: center;
+   
+    justify-content: space-between;
+     padding: 30px;
+    color:white;
+}
+.follow a{
+    padding: 30px;
+    color: white;
+}
+
